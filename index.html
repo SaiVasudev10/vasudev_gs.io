@@ -15,27 +15,12 @@
     <style>
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background: linear-gradient(135deg, #0f172a 0%, #1a1f3a 50%, #0f1628 100%);
+            background: linear-gradient(135deg, #f5f3ff 0%, #fef5f5 50%, #f0f9ff 100%);
             min-height: 100vh;
         }
         /* Unique Gradient Backgrounds */
         .gradient-hero {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
-        }
-        .gradient-subtle {
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(240, 147, 251, 0.1) 100%);
-        }
-        .gradient-card-1 {
-            background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%);
-            border-image: linear-gradient(135deg, #f97316, #ec4899) 1;
-        }
-        .gradient-card-2 {
-            background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
-            border-image: linear-gradient(135deg, #22c55e, #3b82f6) 1;
-        }
-        .gradient-card-3 {
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%);
-            border-image: linear-gradient(135deg, #a855f7, #ec4899) 1;
         }
         .gradient-accent {
             background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
@@ -65,34 +50,35 @@
             background: linear-gradient(135deg, #06b6d4, #0891b2);
             color: white;
         }
-        /* Dark Section Backgrounds */
-        .section-dark {
-            background: linear-gradient(135deg, #1a1f3a 0%, #16213e 50%, #0f1628 100%);
+        /* Section Backgrounds */
+        .section-light {
+            background: linear-gradient(135deg, #ffffff 0%, #faf9ff 50%, #f0f9ff 100%);
         }
-        .section-dark-alt {
-            background: linear-gradient(135deg, #0f172a 0%, #1a1f3a 50%, #16213e 100%);
+        .section-light-alt {
+            background: linear-gradient(135deg, #f5f3ff 0%, #fef5f5 50%, #f8faff 100%);
         }
         /* Card Backgrounds */
-        .card-dark {
-            background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(30, 35, 50, 0.8) 100%);
-            border: 1px solid rgba(148, 163, 184, 0.1);
+        .card-light {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(249, 250, 251, 0.9) 100%);
+            border: 2px solid rgba(200, 100, 200, 0.15);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.08);
         }
     </style>
 </head>
-<body class="text-slate-100 antialiased selection:bg-purple-500 selection:text-white">
+<body class="text-slate-800 antialiased selection:bg-purple-500 selection:text-white">
 
     <!-- Navigation Header -->
-    <header class="sticky top-0 z-50 border-b border-slate-700/50 bg-slate-950/90 backdrop-blur-xl shadow-lg shadow-purple-900/20">
+    <header class="sticky top-0 z-50 border-b border-purple-200/50 bg-white/90 backdrop-blur-xl shadow-md shadow-purple-200/20">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8">
-            <a href="#" class="text-xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text">
-                Vasudev<span class="text-transparent bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text">.</span>
+            <a href="#" class="text-xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text">
+                Vasudev<span class="text-transparent bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text">.</span>
             </a>
-            <nav class="hidden space-x-8 text-sm font-medium text-slate-300 md:flex">
-                <a href="#about" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text">About</a>
-                <a href="#expertise" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text">Expertise</a>
-                <a href="#products" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text">Delivered Products</a>
-                <a href="#experience" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text">Experience</a>
-                <a href="#credentials" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text">Credentials</a>
+            <nav class="hidden space-x-8 text-sm font-medium text-slate-600 md:flex">
+                <a href="#about" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:bg-clip-text">About</a>
+                <a href="#expertise" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:bg-clip-text">Expertise</a>
+                <a href="#products" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:bg-clip-text">Delivered Products</a>
+                <a href="#experience" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:bg-clip-text">Experience</a>
+                <a href="#credentials" class="transition-all hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:bg-clip-text">Credentials</a>
             </nav>
             <div>
                 <a href="https://www.linkedin.com/in/sai-vasudev-gandam-b6238015b" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg gradient-accent px-4 py-2 text-sm font-semibold text-white shadow-lg transition-all hover:shadow-xl hover:scale-105">
@@ -104,41 +90,41 @@
 
     <main>
         <!-- Hero / About Me Section -->
-        <section id="about" class="section-dark relative overflow-hidden py-20 lg:py-28">
+        <section id="about" class="section-light relative overflow-hidden py-20 lg:py-28">
             <div class="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 sm:px-8 lg:grid-cols-12 lg:gap-8">
                 <!-- Left: Text Content -->
                 <div class="flex flex-col justify-center lg:col-span-7">
-                    <span class="inline-flex w-fit items-center rounded-md bg-gradient-to-r from-purple-900/50 to-pink-900/50 px-3 py-1.5 text-xs font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300 ring-2 ring-purple-500/30 mb-6">
-                        Product Owner &amp; Business Analyst Specialist
+                    <span class="inline-flex w-fit items-center rounded-md bg-gradient-to-r from-purple-100 to-pink-100 px-3 py-1.5 text-xs font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-700 ring-2 ring-purple-300 mb-6">
+                        Business Analyst
                     </span>
-                    <h1 class="text-4xl font-extrabold tracking-tight text-transparent bg-gradient-to-r from-purple-300 via-pink-300 to-blue-300 bg-clip-text sm:text-5xl lg:text-6xl">
+                    <h1 class="text-4xl font-extrabold tracking-tight text-transparent bg-gradient-to-r from-purple-700 via-pink-600 to-blue-600 bg-clip-text sm:text-5xl lg:text-6xl">
                         Sai Vasudev Gandam
                     </h1>
-                    <p class="mt-4 text-xl font-semibold text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text">
+                    <p class="mt-4 text-xl font-semibold text-transparent bg-gradient-to-r from-purple-700 to-pink-600 bg-clip-text">
                         Transforming Complex Business Needs into Scalable, Data‑Driven Solutions.
                     </p>
-                    <p class="mt-6 text-lg leading-relaxed text-slate-300">
+                    <p class="mt-6 text-lg leading-relaxed text-slate-700">
                         Business Analyst with 5+ years of experience in E‑Commerce, Campaign Management, GenAI, and Insurance domains. Expertise in requirements gathering, business process analysis, and delivering measurable business impact.
                     </p>
                     <div class="mt-10 flex flex-wrap gap-4">
                         <a href="#products" class="rounded-lg gradient-accent px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:shadow-xl hover:scale-105">
                             View Delivered Products
                         </a>
-                        <a href="#experience" class="rounded-lg border-2 border-purple-500/50 bg-slate-900/50 px-6 py-3 text-sm font-semibold text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text transition-all hover:bg-purple-900/30 hover:border-purple-400 hover:shadow-md">
+                        <a href="#experience" class="rounded-lg border-2 border-purple-400 bg-white px-6 py-3 text-sm font-semibold text-transparent bg-gradient-to-r from-purple-700 to-pink-600 bg-clip-text transition-all hover:bg-purple-50 hover:border-purple-500 hover:shadow-md">
                             Read Case Studies
                         </a>
                     </div>
                 </div>
                 <!-- Right: Profile Picture Container - MEDIUM SIZE -->
                 <div class="flex items-center justify-center lg:col-span-5">
-                    <div class="relative h-80 w-80 rounded-3xl bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400 p-1 shadow-2xl ring-2 ring-purple-300/50 hover:shadow-3xl transition-all duration-300">
-                        <img src="profile.jpg" alt="Sai Vasudev Gandam Professional Headshot" class="h-full w-full rounded-3xl object-cover object-center shadow-inner bg-slate-800" onerror="this.style.display='none'">
+                    <div class="relative h-80 w-80 rounded-3xl bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400 p-1 shadow-2xl ring-2 ring-purple-300/70 hover:shadow-3xl transition-all duration-300">
+                        <img src="profile.jpg" alt="Sai Vasudev Gandam Professional Headshot" class="h-full w-full rounded-3xl object-cover object-center shadow-inner bg-slate-200" onerror="this.style.display='none'">
                         <!-- Fallback view if image is missing initially -->
-                        <div class="hidden absolute inset-1 flex flex-col items-center justify-center rounded-3xl bg-slate-900 border border-slate-700 text-center px-6">
-                            <div class="mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-slate-800 text-slate-400">
+                        <div class="hidden absolute inset-1 flex flex-col items-center justify-center rounded-3xl bg-slate-800 border border-slate-700 text-center px-6">
+                            <div class="mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-slate-700 text-slate-300">
                                 <i class="fa-solid fa-user-tie text-3xl"></i>
                             </div>
-                            <span class="text-sm font-medium tracking-wider text-blue-300 uppercase">Image Setup Needed</span>
+                            <span class="text-sm font-medium tracking-wider text-blue-400 uppercase">Image Setup Needed</span>
                             <p class="mt-2 text-xs text-slate-400 max-w-[220px]">
                                 Place your photo in the same directory and name it <b>profile.jpg</b> to display it here.
                             </p>
@@ -149,20 +135,20 @@
         </section>
 
         <!-- Core Expertise & Toolkit Section -->
-        <section id="expertise" class="section-dark-alt border-t border-slate-700/50 py-20">
+        <section id="expertise" class="section-light-alt border-t-2 border-purple-200 py-20">
             <div class="mx-auto max-w-7xl px-6 sm:px-8">
                 <div class="max-w-3xl">
-                    <h2 class="text-3xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text sm:text-4xl">Core Expertise &amp; Technical Toolkit</h2>
-                    <p class="mt-4 text-lg text-slate-400">A targeted breakdown of architectural domain landscapes, management frameworks, and platforms utilized to steer cross-functional discovery.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-700 to-pink-600 bg-clip-text sm:text-4xl">Core Expertise &amp; Technical Toolkit</h2>
+                    <p class="mt-4 text-lg text-slate-700">A targeted breakdown of architectural domain landscapes, management frameworks, and platforms utilized to steer cross-functional discovery.</p>
                 </div>
 
                 <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
                     <!-- Column 1: Business Domains -->
-                    <div class="card-dark rounded-2xl border-2 border-orange-500/30 p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div class="card-light rounded-2xl border-2 border-orange-300 p-8 shadow-md hover:shadow-lg transition-all duration-300">
                         <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-orange-400 to-pink-400 text-white shadow-lg">
                             <i class="fa-solid fa-network-wired text-lg"></i>
                         </div>
-                        <h3 class="mt-4 text-lg font-bold text-slate-100">Business Domains</h3>
+                        <h3 class="mt-4 text-lg font-bold text-slate-900">Business Domains</h3>
                         <div class="mt-4 flex flex-wrap gap-2">
                             <span class="tag-orange rounded-md px-3 py-1 text-xs font-semibold">Insurance</span>
                             <span class="tag-pink rounded-md px-3 py-1 text-xs font-semibold">Campaign Management</span>
@@ -173,11 +159,11 @@
                     </div>
 
                     <!-- Column 2: Management Skills -->
-                    <div class="card-dark rounded-2xl border-2 border-green-500/30 p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div class="card-light rounded-2xl border-2 border-green-300 p-8 shadow-md hover:shadow-lg transition-all duration-300">
                         <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-green-400 to-blue-400 text-white shadow-lg">
                             <i class="fa-solid fa-list-check text-lg"></i>
                         </div>
-                        <h3 class="mt-4 text-lg font-bold text-slate-100">Management Skills</h3>
+                        <h3 class="mt-4 text-lg font-bold text-slate-900">Management Skills</h3>
                         <div class="mt-4 flex flex-wrap gap-2">
                             <span class="tag-green rounded-md px-3 py-1 text-xs font-semibold">Strategic Thinking</span>
                             <span class="tag-blue rounded-md px-3 py-1 text-xs font-semibold">Problem-Solving</span>
@@ -188,11 +174,11 @@
                     </div>
 
                     <!-- Column 3: Platform & Tool Deck -->
-                    <div class="card-dark rounded-2xl border-2 border-purple-500/30 p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div class="card-light rounded-2xl border-2 border-purple-300 p-8 shadow-md hover:shadow-lg transition-all duration-300">
                         <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-purple-400 to-pink-400 text-white shadow-lg">
                             <i class="fa-solid fa-screwdriver-wrench text-lg"></i>
                         </div>
-                        <h3 class="mt-4 text-lg font-bold text-slate-100">Technical Toolkit</h3>
+                        <h3 class="mt-4 text-lg font-bold text-slate-900">Technical Toolkit</h3>
                         <div class="mt-4 flex flex-wrap gap-2">
                             <span class="tag-purple rounded-md px-3 py-1 text-xs font-semibold">JIRA</span>
                             <span class="tag-pink rounded-md px-3 py-1 text-xs font-semibold">Confluence</span>
@@ -209,86 +195,86 @@
         </section>
 
         <!-- Impact & Delivered Products Section -->
-        <section id="products" class="section-dark py-20">
+        <section id="products" class="section-light py-20">
             <div class="mx-auto max-w-7xl px-6 sm:px-8">
                 <div class="max-w-3xl">
-                    <h2 class="text-3xl font-bold tracking-tight text-transparent bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text sm:text-4xl">Impact &amp; Delivered Products</h2>
-                    <p class="mt-4 text-lg text-slate-400">Real-world product components engineered, showing concrete efficiency gains and delivery outcomes across prominent client engagements.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-transparent bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text sm:text-4xl">Impact &amp; Delivered Products</h2>
+                    <p class="mt-4 text-lg text-slate-700">Real-world product components engineered, showing concrete efficiency gains and delivery outcomes across prominent client engagements.</p>
                 </div>
 
                 <div class="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
                     <!-- Product Card 1: Gen-AI-Omni Assist -->
-                    <div class="card-dark rounded-2xl border-2 border-orange-500/30 p-8 shadow-xl transition-all hover:shadow-2xl hover:scale-105 duration-300">
+                    <div class="card-light rounded-2xl border-2 border-orange-300 p-8 shadow-md transition-all hover:shadow-lg hover:scale-105 duration-300">
                         <div>
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-orange-300 to-pink-300 bg-clip-text">Media &amp; Communications / GenAI</span>
+                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-orange-700 to-pink-700 bg-clip-text">Media &amp; Communications / GenAI</span>
                                 <span class="inline-flex items-center rounded-full gradient-accent text-white px-3 py-1 text-xs font-bold">
                                     <i class="fa-solid fa-arrow-trend-up mr-1"></i> +30% Efficiency
                                 </span>
                             </div>
-                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-orange-300 to-pink-300 bg-clip-text">Gen-AI-Omni Assist Chatbot</h3>
-                            <p class="mt-3 text-slate-300 leading-relaxed text-sm">
+                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-orange-700 to-pink-700 bg-clip-text">Gen-AI-Omni Assist Chatbot</h3>
+                            <p class="mt-3 text-slate-700 leading-relaxed text-sm">
                                 Orchestrated business configuration and user story mapping for an enterprise conversational chatbot system across US, EMEA, and Germany. Configured prompt engineering strategies.
                             </p>
                         </div>
-                        <div class="mt-8 pt-4 border-t border-slate-700/50 flex items-center justify-between text-xs text-slate-400 font-semibold">
+                        <div class="mt-8 pt-4 border-t-2 border-orange-200 flex items-center justify-between text-xs text-slate-600 font-semibold">
                             <span>Tools: PowerBI, JIRA, Confluence, Lucid Chart</span>
                         </div>
                     </div>
 
                     <!-- Product Card 2: One & All Campaign Management -->
-                    <div class="card-dark rounded-2xl border-2 border-green-500/30 p-8 shadow-xl transition-all hover:shadow-2xl hover:scale-105 duration-300">
+                    <div class="card-light rounded-2xl border-2 border-green-300 p-8 shadow-md transition-all hover:shadow-lg hover:scale-105 duration-300">
                         <div>
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text">Campaign Management / Analytics</span>
+                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-green-700 to-blue-700 bg-clip-text">Campaign Management / Analytics</span>
                                 <span class="inline-flex items-center rounded-full bg-gradient-to-r from-green-400 to-blue-400 text-white px-3 py-1 text-xs font-bold">
                                     <i class="fa-solid fa-bolt mr-1"></i> 35% Faster
                                 </span>
                             </div>
-                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text">Campaign Optimization Engine</h3>
-                            <p class="mt-3 text-slate-300 leading-relaxed text-sm">
+                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-green-700 to-blue-700 bg-clip-text">Campaign Optimization Engine</h3>
+                            <p class="mt-3 text-slate-700 leading-relaxed text-sm">
                                 Pioneered an advanced feedback collection engine that synchronized cross-functional marketing campaigns. Designed UI metric dashboards that shaved operational processes.
                             </p>
                         </div>
-                        <div class="mt-8 pt-4 border-t border-slate-700/50 flex items-center justify-between text-xs text-slate-400 font-semibold">
+                        <div class="mt-8 pt-4 border-t-2 border-green-200 flex items-center justify-between text-xs text-slate-600 font-semibold">
                             <span>Tools: JIRA, SQL, Power BI, MIRO</span>
                         </div>
                     </div>
 
                     <!-- Product Card 3: Nationwide Commercial Infrastructure -->
-                    <div class="card-dark rounded-2xl border-2 border-purple-500/30 p-8 shadow-xl transition-all hover:shadow-2xl hover:scale-105 duration-300">
+                    <div class="card-light rounded-2xl border-2 border-purple-300 p-8 shadow-md transition-all hover:shadow-lg hover:scale-105 duration-300">
                         <div>
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text">Insurance / API Data Mapping</span>
+                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text">Insurance / API Data Mapping</span>
                                 <span class="inline-flex items-center rounded-full bg-gradient-to-r from-purple-400 to-pink-400 text-white px-3 py-1 text-xs font-bold">
                                     15-Member Pod Lead
                                 </span>
                             </div>
-                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text">Commercial Credit Architecture</h3>
-                            <p class="mt-3 text-slate-300 leading-relaxed text-sm">
+                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text">Commercial Credit Architecture</h3>
+                            <p class="mt-3 text-slate-700 leading-relaxed text-sm">
                                 Guided technical validation tracks for Nationwide Insurance Commercial Auto Lines. Executed deep structural API data mapping and JSON payload schemas.
                             </p>
                         </div>
-                        <div class="mt-8 pt-4 border-t border-slate-700/50 flex items-center justify-between text-xs text-slate-400 font-semibold">
+                        <div class="mt-8 pt-4 border-t-2 border-purple-200 flex items-center justify-between text-xs text-slate-600 font-semibold">
                             <span>Tools: Postman, Splunk, SQL, JIRA</span>
                         </div>
                     </div>
 
                     <!-- Product Card 4: The Body Shop E-Commerce Engine -->
-                    <div class="card-dark rounded-2xl border-2 border-cyan-500/30 p-8 shadow-xl transition-all hover:shadow-2xl hover:scale-105 duration-300">
+                    <div class="card-light rounded-2xl border-2 border-cyan-300 p-8 shadow-md transition-all hover:shadow-lg hover:scale-105 duration-300">
                         <div>
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text">E-Commerce / Core Retail</span>
+                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-cyan-700 to-blue-700 bg-clip-text">E-Commerce / Core Retail</span>
                                 <span class="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-3 py-1 text-xs font-bold">
                                     SAP Hybris Delivery
                                 </span>
                             </div>
-                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text">E-Commerce Omnichannel Platform</h3>
-                            <p class="mt-3 text-slate-300 leading-relaxed text-sm">
+                            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-r from-cyan-700 to-blue-700 bg-clip-text">E-Commerce Omnichannel Platform</h3>
+                            <p class="mt-3 text-slate-700 leading-relaxed text-sm">
                                 Documented process workflows, use-cases, and mock UI interactive frameworks mapping to core SAP Hybris Commerce and Order Management systems.
                             </p>
                         </div>
-                        <div class="mt-8 pt-4 border-t border-slate-700/50 flex items-center justify-between text-xs text-slate-400 font-semibold">
+                        <div class="mt-8 pt-4 border-t-2 border-cyan-200 flex items-center justify-between text-xs text-slate-600 font-semibold">
                             <span>Tools: SAP Hybris, Wireframing, JIRA, SQL</span>
                         </div>
                     </div>
@@ -297,24 +283,24 @@
         </section>
 
         <!-- Professional Timeline Section -->
-        <section id="experience" class="section-dark-alt border-t border-slate-700/50 py-20">
+        <section id="experience" class="section-light-alt border-t-2 border-purple-200 py-20">
             <div class="mx-auto max-w-7xl px-6 sm:px-8">
                 <div class="max-w-3xl">
-                    <h2 class="text-3xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-300 to-orange-300 bg-clip-text sm:text-4xl">Professional Experience Timeline</h2>
-                    <p class="mt-4 text-lg text-slate-400">A clear, sequential outline of official structural roles, milestones, and corporate tenure.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-700 to-orange-700 bg-clip-text sm:text-4xl">Professional Experience Timeline</h2>
+                    <p class="mt-4 text-lg text-slate-700">A clear, sequential outline of official structural roles, milestones, and corporate tenure.</p>
                 </div>
 
                 <!-- Timeline Grid -->
                 <div class="mt-12 relative border-l-4 border-gradient-to-b from-purple-500 to-pink-500 ml-4 md:ml-6 space-y-10">
                     <!-- Node 1 -->
                     <div class="relative pl-8">
-                        <div class="absolute -left-[11px] top-1.5 h-5 w-5 rounded-full border-4 border-slate-900 bg-gradient-to-br from-purple-500 to-pink-500 ring-4 ring-slate-900 shadow-lg"></div>
+                        <div class="absolute -left-[11px] top-1.5 h-5 w-5 rounded-full border-4 border-white bg-gradient-to-br from-purple-500 to-pink-500 ring-4 ring-purple-200 shadow-lg"></div>
                         <div class="flex flex-wrap items-center justify-between gap-2">
-                            <h3 class="text-xl font-bold text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text">Technology Analyst (Acting Business Analyst)</h3>
+                            <h3 class="text-xl font-bold text-transparent bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text">Technology Analyst (Acting Business Analyst)</h3>
                             <span class="text-sm font-bold text-white bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-1 rounded-full">June 2025 – Present</span>
                         </div>
-                        <p class="text-sm font-medium text-slate-300 mt-1">Cognizant Technology Solutions (Client: Nationwide Mutual Insurance Company)</p>
-                        <ul class="mt-4 list-disc pl-5 text-slate-300 space-y-2 text-sm leading-relaxed">
+                        <p class="text-sm font-medium text-slate-700 mt-1">Cognizant Technology Solutions (Client: Nationwide Mutual Insurance Company)</p>
+                        <ul class="mt-4 list-disc pl-5 text-slate-700 space-y-2 text-sm leading-relaxed">
                             <li>Coordinates comprehensive user requirements mapping for an agile delivery squad of 15 system engineers and QA analysts.</li>
                             <li>Runs core refinement checkpoints to break down acceptance metrics while sorting structural item prioritization.</li>
                             <li>Structures request/response object mapping definitions within Postman testing environments.</li>
@@ -323,13 +309,13 @@
 
                     <!-- Node 2 -->
                     <div class="relative pl-8">
-                        <div class="absolute -left-[11px] top-1.5 h-5 w-5 rounded-full border-4 border-slate-900 bg-gradient-to-br from-green-400 to-blue-400 ring-4 ring-slate-900 shadow-lg"></div>
+                        <div class="absolute -left-[11px] top-1.5 h-5 w-5 rounded-full border-4 border-white bg-gradient-to-br from-green-400 to-blue-400 ring-4 ring-green-200 shadow-lg"></div>
                         <div class="flex flex-wrap items-center justify-between gap-2">
-                            <h3 class="text-xl font-bold text-transparent bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text">Business Analyst</h3>
+                            <h3 class="text-xl font-bold text-transparent bg-gradient-to-r from-green-700 to-blue-700 bg-clip-text">Business Analyst</h3>
                             <span class="text-sm font-bold text-white bg-gradient-to-r from-green-500 to-blue-500 px-3 py-1 rounded-full">March 2022 – May 2025</span>
                         </div>
-                        <p class="text-sm font-medium text-slate-300 mt-1">Omnicom Media Group (Annalect)</p>
-                        <ul class="mt-4 list-disc pl-5 text-slate-300 space-y-2 text-sm leading-relaxed">
+                        <p class="text-sm font-medium text-slate-700 mt-1">Omnicom Media Group (Annalect)</p>
+                        <ul class="mt-4 list-disc pl-5 text-slate-700 space-y-2 text-sm leading-relaxed">
                             <li>Managed continuous backlogs for multi-regional generative AI product assets, defining prompt strategies.</li>
                             <li>Constructed operational data tracking reports inside Power BI, optimizing data visibility margins by 30%.</li>
                             <li>Restructured user experience flows for data configuration pipelines, driving rapid prototyping sessions.</li>
@@ -338,13 +324,13 @@
 
                     <!-- Node 3 -->
                     <div class="relative pl-8">
-                        <div class="absolute -left-[11px] top-1.5 h-5 w-5 rounded-full border-4 border-slate-900 bg-gradient-to-br from-orange-400 to-pink-400 ring-4 ring-slate-900 shadow-lg"></div>
+                        <div class="absolute -left-[11px] top-1.5 h-5 w-5 rounded-full border-4 border-white bg-gradient-to-br from-orange-400 to-pink-400 ring-4 ring-orange-200 shadow-lg"></div>
                         <div class="flex flex-wrap items-center justify-between gap-2">
-                            <h3 class="text-xl font-bold text-transparent bg-gradient-to-r from-orange-300 to-pink-300 bg-clip-text">Junior Business Analyst</h3>
+                            <h3 class="text-xl font-bold text-transparent bg-gradient-to-r from-orange-700 to-pink-700 bg-clip-text">Junior Business Analyst</h3>
                             <span class="text-sm font-bold text-white bg-gradient-to-r from-orange-500 to-pink-500 px-3 py-1 rounded-full">Feb 2019 – Mar 2020</span>
                         </div>
-                        <p class="text-sm font-medium text-slate-300 mt-1">Nendrasys Technologies Private Limited (Client: The Body Shop)</p>
-                        <ul class="mt-4 list-disc pl-5 text-slate-300 space-y-2 text-sm leading-relaxed">
+                        <p class="text-sm font-medium text-slate-700 mt-1">Nendrasys Technologies Private Limited (Client: The Body Shop)</p>
+                        <ul class="mt-4 list-disc pl-5 text-slate-700 space-y-2 text-sm leading-relaxed">
                             <li>Elicited core functional requirements maps across integrated SAP Hybris order routing workflows.</li>
                             <li>Drafted operational visual wireframes, saving validation turnaround delays between teams.</li>
                             <li>Organized strict automated and user acceptance validation execution parameters for production scheduling.</li>
@@ -355,80 +341,80 @@
         </section>
 
         <!-- Verified Credentials & Education Section -->
-        <section id="credentials" class="section-dark py-20">
+        <section id="credentials" class="section-light py-20">
             <div class="mx-auto max-w-7xl px-6 sm:px-8">
                 <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
                     
                     <!-- Left: Verified Credentials -->
                     <div>
-                        <h2 class="text-2xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text">Verified Product &amp; Data Credentials</h2>
-                        <p class="mt-2 text-sm text-slate-400">Click any badge resource node to access the external cryptographically secure verification link directly.</p>
+                        <h2 class="text-2xl font-bold tracking-tight text-transparent bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text">Verified Product &amp; Data Credentials</h2>
+                        <p class="mt-2 text-sm text-slate-700">Click any badge resource node to access the external cryptographically secure verification link directly.</p>
                         
                         <div class="mt-8 space-y-4">
                             <!-- Cert 1 -->
-                            <a href="https://certification.scrumalliance.org/accounts/1432248-sai-vasudev-gandam/certifications/1671666-cspo" target="_blank" rel="noopener noreferrer" class="group card-dark rounded-xl border-2 border-purple-500/30 p-4 transition-all hover:shadow-lg hover:border-purple-400 flex items-center justify-between">
+                            <a href="https://certification.scrumalliance.org/accounts/1432248-sai-vasudev-gandam/certifications/1671666-cspo" target="_blank" rel="noopener noreferrer" class="group card-light rounded-xl border-2 border-purple-300 p-4 transition-all hover:shadow-lg hover:border-purple-400 flex items-center justify-between">
                                 <div class="flex items-center gap-4">
                                     <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-purple-400 to-pink-400 text-white">
                                         <i class="fa-solid fa-award text-xl"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-slate-100 text-sm md:text-base">Certified Scrum Product Owner (CSPO)</h4>
-                                        <p class="text-xs text-slate-400">Scrum Alliance</p>
+                                        <h4 class="font-bold text-slate-900 text-sm md:text-base">Certified Scrum Product Owner (CSPO)</h4>
+                                        <p class="text-xs text-slate-600">Scrum Alliance</p>
                                     </div>
                                 </div>
-                                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-purple-300 px-2"></i>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-600 group-hover:text-purple-700 px-2"></i>
                             </a>
 
                             <!-- Cert 2 -->
-                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/SAIVASUDEVGANDAM-9443/2DFFBCB00F85505D?sharingId" target="_blank" rel="noopener noreferrer" class="group card-dark rounded-xl border-2 border-blue-500/30 p-4 transition-all hover:shadow-lg hover:border-blue-400 flex items-center justify-between">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/SAIVASUDEVGANDAM-9443/2DFFBCB00F85505D?sharingId" target="_blank" rel="noopener noreferrer" class="group card-light rounded-xl border-2 border-blue-300 p-4 transition-all hover:shadow-lg hover:border-blue-400 flex items-center justify-between">
                                 <div class="flex items-center gap-4">
                                     <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-blue-400 to-cyan-400 text-white">
                                         <i class="fa-solid fa-chart-bar text-xl"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-slate-100 text-sm md:text-base">Power BI Data Analyst Associate (PL-300)</h4>
-                                        <p class="text-xs text-slate-400">Microsoft Certified</p>
+                                        <h4 class="font-bold text-slate-900 text-sm md:text-base">Power BI Data Analyst Associate (PL-300)</h4>
+                                        <p class="text-xs text-slate-600">Microsoft Certified</p>
                                     </div>
                                 </div>
-                                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-blue-300 px-2"></i>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-600 group-hover:text-blue-700 px-2"></i>
                             </a>
 
                             <!-- Cert 3 -->
-                            <div class="card-dark rounded-xl border-2 border-orange-500/30 p-4 flex items-center justify-between">
+                            <div class="card-light rounded-xl border-2 border-orange-300 p-4 flex items-center justify-between">
                                 <div class="flex items-center gap-4">
                                     <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-orange-400 to-pink-400 text-white">
                                         <i class="fa-solid fa-building-columns text-xl"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-slate-100 text-sm md:text-base">Business Analysis Foundation</h4>
-                                        <p class="text-xs text-slate-400">ID: UC-5ac04152-9e99-454c-a998-1fe82e556246</p>
+                                        <h4 class="font-bold text-slate-900 text-sm md:text-base">Business Analysis Foundation</h4>
+                                        <p class="text-xs text-slate-600">ID: UC-5ac04152-9e99-454c-a998-1fe82e556246</p>
                                     </div>
                                 </div>
-                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-orange-300 to-pink-300 bg-clip-text px-2">Verified</span>
+                                <span class="text-xs font-bold uppercase tracking-wider text-transparent bg-gradient-to-r from-orange-700 to-pink-700 bg-clip-text px-2">Verified</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- Right: Educational History -->
                     <div>
-                        <h2 class="text-2xl font-bold tracking-tight text-transparent bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text">Academic Background</h2>
-                        <p class="mt-2 text-sm text-slate-400">Core foundational degrees supporting engineering and data management principles.</p>
+                        <h2 class="text-2xl font-bold tracking-tight text-transparent bg-gradient-to-r from-green-700 to-blue-700 bg-clip-text">Academic Background</h2>
+                        <p class="mt-2 text-sm text-slate-700">Core foundational degrees supporting engineering and data management principles.</p>
 
                         <div class="mt-8 space-y-6">
                             <!-- Degree 1 -->
                             <div class="relative pl-6 border-l-4 border-gradient-to-b from-green-400 to-blue-400">
                                 <div class="absolute -left-[11px] top-1.5 h-4 w-4 rounded-full bg-gradient-to-br from-green-400 to-blue-400 shadow-md"></div>
-                                <span class="text-xs font-bold text-transparent bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text">2017 - 2019</span>
-                                <h4 class="text-lg font-bold text-slate-100 mt-1">Master of Science in Information Technology</h4>
-                                <p class="text-sm text-slate-400">JNTUK</p>
+                                <span class="text-xs font-bold text-transparent bg-gradient-to-r from-green-700 to-blue-700 bg-clip-text">2017 - 2019</span>
+                                <h4 class="text-lg font-bold text-slate-900 mt-1">Master of Science in Information Technology</h4>
+                                <p class="text-sm text-slate-700">JNTUK</p>
                             </div>
 
                             <!-- Degree 2 -->
                             <div class="relative pl-6 border-l-4 border-gradient-to-b from-purple-400 to-pink-400">
                                 <div class="absolute -left-[11px] top-1.5 h-4 w-4 rounded-full bg-gradient-to-br from-purple-400 to-pink-400 shadow-md"></div>
-                                <span class="text-xs font-bold text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text">2012 - 2016</span>
-                                <h4 class="text-lg font-bold text-slate-100 mt-1">Bachelor of Engineering in Electronics &amp; Communication (ECE)</h4>
-                                <p class="text-sm text-slate-400">Andhra University</p>
+                                <span class="text-xs font-bold text-transparent bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text">2012 - 2016</span>
+                                <h4 class="text-lg font-bold text-slate-900 mt-1">Bachelor of Engineering in Electronics &amp; Communication (ECE)</h4>
+                                <p class="text-sm text-slate-700">Andhra University</p>
                             </div>
                         </div>
                     </div>
@@ -439,8 +425,8 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-slate-700/50 bg-slate-950 py-8 shadow-inner shadow-purple-900/20">
-        <div class="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between px-6 sm:px-8 text-xs text-slate-400 gap-4">
+    <footer class="border-t-2 border-purple-200 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 py-8">
+        <div class="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between px-6 sm:px-8 text-xs text-slate-300 gap-4">
             <p>&copy; 2026 Sai Vasudev Gandam. All rights reserved.</p>
             <div class="flex space-x-6">
                 <a href="https://www.linkedin.com/in/sai-vasudev-gandam-b6238015b" target="_blank" rel="noopener noreferrer" class="hover:text-transparent hover:bg-gradient-to-r hover:from-purple-300 hover:to-pink-300 hover:bg-clip-text transition-colors">LinkedIn Profile</a>
