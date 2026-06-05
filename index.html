@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Vasudev Gandam | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Plus Jakarta Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/80 backdrop-blur-md">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8">
+            <a href="#" class="text-xl font-bold tracking-tight text-slate-900">SVG<span class="text-blue-600">.</span></a>
+            <nav class="hidden space-x-8 text-sm font-medium text-slate-600 md:flex">
+                <a href="#about" class="transition-colors hover:text-blue-600">About</a>
+                <a href="#expertise" class="transition-colors hover:text-blue-600">Expertise</a>
+                <a href="#products" class="transition-colors hover:text-blue-600">Delivered Products</a>
+                <a href="#experience" class="transition-colors hover:text-blue-600">Experience</a>
+                <a href="#credentials" class="transition-colors hover:text-blue-600">Credentials</a>
+            </nav>
+            <div>
+                <a href="https://www.linkedin.com/in/sai-vasudev-gandam-b6238015b" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-slate-800 hover:shadow-lg hover:shadow-slate-900/10">
+                    <i class="fab fa-linkedin text-base"></i> Connect on LinkedIn
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / About Me Section -->
+        <section id="about" class="relative overflow-hidden bg-white py-20 lg:py-28">
+            <div class="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 sm:px-8 lg:grid-cols-12 lg:gap-8">
+                <!-- Left: Text Content -->
+                <div class="flex flex-col justify-center lg:col-span-7">
+                    <span class="inline-flex w-fit items-center rounded-md bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 mb-6">
+                        Product Owner &amp; Business Analyst Specialist
+                    </span>
+                    <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+                        Sai Vasudev Gandam
+                    </h1>
+                    <p class="mt-4 text-xl font-semibold text-slate-600">
+                        Transforming Complex Business Needs into Scalable, Data‑Driven Solutions.
+                    </p>
+                    <p class="mt-6 text-lg leading-relaxed text-slate-500">
+                        Business Analyst with 5+ years of experience in E‑Commerce, Campaign Management, GenAI, and Insurance domains. Expertise in requirements gathering, business process analysis, data analysis, stakeholder management, and solution design. Proven ability to translate business needs into scalable, data‑driven solutions that improve efficiency and business outcomes.
+                    </p>
+                    <div class="mt-10 flex flex-wrap gap-4">
+                        <a href="#products" class="rounded-lg bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-600/20">
+                            View Delivered Products
+                        </a>
+                        <a href="#experience" class="rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition-all hover:bg-slate-50">
+                            Read Case Studies
+                        </a>
+                    </div>
+                </div>
+                <!-- Right: Profile Picture Container -->
+                <div class="flex items-center justify-center lg:col-span-5">
+                    <div class="relative h-[440px] w-full max-w-[360px] rounded-2xl bg-gradient-to-tr from-slate-200 to-slate-100 p-2 shadow-xl ring-1 ring-slate-900/5">
+                        <img src="profile.jpg" alt="Sai Vasudev Gandam Professional Headshot" class="h-full w-full rounded-xl object-cover object-center shadow-inner bg-slate-200" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <!-- Fallback view if image is missing initially -->
+                        <div class="hidden absolute inset-2 flex flex-col items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-center px-6">
+                            <div class="mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-slate-700 text-slate-300">
+                                <i class="fa-solid fa-user-tie text-3xl"></i>
+                            </div>
+                            <span class="text-sm font-medium tracking-wider text-blue-400 uppercase">Image Setup Needed</span>
+                            <p class="mt-2 text-xs text-slate-400 max-w-[220px]">
+                                Place your photo in the same directory and name it <b>profile.jpg</b> to display it here.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Expertise & Toolkit Section -->
+        <section id="expertise" class="border-t border-slate-200 bg-slate-50 py-20">
+            <div class="mx-auto max-w-7xl px-6 sm:px-8">
+                <div class="max-w-3xl">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Core Expertise &amp; Technical Toolkit</h2>
+                    <p class="mt-4 text-lg text-slate-500">A targeted breakdown of architectural domain landscapes, management frameworks, and platforms utilized to steer cross-functional discovery cycles.</p>
+                </div>
+
+                <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <!-- Column 1: Business Domains -->
+                    <div class="rounded-2xl border border-slate-200/60 bg-white p-8 shadow-sm">
+                        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+                            <i class="fa-solid fa-network-wired text-lg"></i>
+                        </div>
+                        <h3 class="mt-4 text-lg font-bold text-slate-900">Business Domains</h3>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Insurance</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Campaign Management</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Media</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">E-Commerce</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Technology</span>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Management Skills -->
+                    <div class="rounded-2xl border border-slate-200/60 bg-white p-8 shadow-sm">
+                        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+                            <i class="fa-solid fa-list-check text-lg"></i>
+                        </div>
+                        <h3 class="mt-4 text-lg font-bold text-slate-900">Management Skills</h3>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Strategic Thinking</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Problem-Solving</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">User Story Mapping</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">BRDs / FRDs Elicitation</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Stakeholder Negotiation</span>
+                        </div>
+                    </div>
+
+                    <!-- Column 3: Platform & Tool Deck -->
+                    <div class="rounded-2xl border border-slate-200/60 bg-white p-8 shadow-sm">
+                        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+                            <i class="fa-solid fa-screwdriver-wrench text-lg"></i>
+                        </div>
+                        <h3 class="mt-4 text-lg font-bold text-slate-900">Technical Toolkit</h3>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">JIRA</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Confluence</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Power BI</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">SQL</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Postman</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Splunk</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Sap Hybris</span>
+                            <span class="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">Figma / Miro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact & Delivered Products Section -->
+        <section id="products" class="bg-white py-20">
+            <div class="mx-auto max-w-7xl px-6 sm:px-8">
+                <div class="max-w-3xl">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Impact &amp; Delivered Products</h2>
+                    <p class="mt-4 text-lg text-slate-500">Real-world product components engineered, showing concrete efficiency gains and delivery outcomes across prominent client engagements.</p>
+                </div>
+
+                <div class="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                    <!-- Product Card 1: Gen-AI-Omni Assist -->
+                    <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:shadow-md">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Media &amp; Communications / GenAI</span>
+                                <span class="inline-flex items-center rounded-full bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/10">
+                                    <i class="fa-solid fa-arrow-trend-up mr-1"></i> +30% Efficiency
+                                </span>
+                            </div>
+                            <h3 class="mt-4 text-xl font-bold text-slate-900">Gen-AI-Omni Assist Chatbot</h3>
+                            <p class="mt-3 text-slate-500 leading-relaxed text-sm">
+                                Orchestrated business configuration and user story mapping for an enterprise conversational chatbot system across US, EMEA, and Germany. Configured prompt engineering models across multiple sandbox environments and constructed Power BI tracking sheets to monitor operational run costs against budget thresholds.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                            <span>Tools: PowerBI, JIRA, Confluence, Lucid Chart</span>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2: One & All Campaign Management -->
+                    <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:shadow-md">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Campaign Management / Analytics</span>
+                                <span class="inline-flex items-center rounded-full bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/10">
+                                    <i class="fa-solid fa-bolt mr-1"></i> 35% Faster Cycles
+                                </span>
+                            </div>
+                            <h3 class="mt-4 text-xl font-bold text-slate-900">One &amp; All Campaign Optimization Engine</h3>
+                            <p class="mt-3 text-slate-500 leading-relaxed text-sm">
+                                Pioneered an advanced feedback collection engine that synchronized cross-functional marketing campaigns. Designed UI metric dashboards that shaved operational processing latency by 30%, giving campaign execution teams instantly verifiable analytical visibility.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                            <span>Tools: JIRA, SQL, Power BI, MIRO</span>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3: Nationwide Commercial Infrastructure -->
+                    <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:shadow-md">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Insurance / API Data Mapping</span>
+                                <span class="inline-flex items-center rounded-full bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+                                    15-Member Pod Agile Lead
+                                </span>
+                            </div>
+                            <h3 class="mt-4 text-xl font-bold text-slate-900">Commercial Credit Architecture</h3>
+                            <p class="mt-3 text-slate-500 leading-relaxed text-sm">
+                                Guided technical validation tracks for Nationwide Insurance Commercial Auto Lines. Executed deep structural API data mapping, mapping JSON payload schemas, and verifying response structural boundaries within Postman to systematically flag core backend dependency defects.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                            <span>Tools: Postman, Splunk, SQL, JIRA, SharePoint</span>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4: The Body Shop E-Commerce Engine -->
+                    <div class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:shadow-md">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold uppercase tracking-wider text-blue-600">E-Commerce / Core Retail</span>
+                                <span class="inline-flex items-center rounded-full bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+                                    SAP Hybris Delivery
+                                </span>
+                            </div>
+                            <h3 class="mt-4 text-xl font-bold text-slate-900">E-Commerce Omnichannel Platform</h3>
+                            <p class="mt-3 text-slate-500 leading-relaxed text-sm">
+                                Documented process workflows, use-cases, and mock UI interactive frameworks mapping to core SAP Hybris Commerce, Product Content Management (PCM), and Order Management (OMS) functional modules, speeding up explicit UI design alignments.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                            <span>Tools: Sap Hybris, Wireframing, JIRA, SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Timeline Section -->
+        <section id="experience" class="border-t border-slate-200 bg-slate-50 py-20">
+            <div class="mx-auto max-w-7xl px-6 sm:px-8">
+                <div class="max-w-3xl">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Professional Experience Timeline</h2>
+                    <p class="mt-4 text-lg text-slate-500">A clear, sequential outline of official structural roles, milestones, and corporate tenure.</p>
+                </div>
+
+                <!-- Timeline Grid -->
+                <div class="mt-12 relative border-l border-slate-300 ml-4 md:ml-6 space-y-10">
+                    <!-- Node 1 -->
+                    <div class="relative pl-8">
+                        <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-4 border-white bg-blue-600 ring-4 ring-blue-100"></div>
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h3 class="text-xl font-bold text-slate-900">Technology Analyst (Acting Business Analyst)</h3>
+                            <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">June 2025 – Present</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-600 mt-1">Cognizant Technology Solutions (Client: Nationwide Mutual Insurance Company)</p>
+                        <ul class="mt-4 list-disc pl-5 text-slate-500 space-y-2 text-sm leading-relaxed">
+                            <li>Coordinates comprehensive user requirements mapping for an agile delivery squad of 15 system engineers and QA analysts.</li>
+                            <li>Runs core refinement checkpoints to break down acceptance metrics while sorting structural item prioritization alongside Product Owners.</li>
+                            <li>Structures request/response object mapping definitions within Postman testing environments to decouple system integration barriers.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Node 2 -->
+                    <div class="relative pl-8">
+                        <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-4 border-white bg-slate-400 ring-4 ring-slate-100"></div>
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h3 class="text-xl font-bold text-slate-900">Business Analyst</h3>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">March 2022 – May 2025</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-600 mt-1">Omnicom Media Group (Annalect)</p>
+                        <ul class="mt-4 list-disc pl-5 text-slate-500 space-y-2 text-sm leading-relaxed">
+                            <li>Managed continuous backlogs for multi-regional generative AI product assets, defining prompt strategies and validating regional scope limits.</li>
+                            <li>Constructed operational data tracking reports inside Power BI, optimizing data visibility margins by 30%.</li>
+                            <li>Restructured user experience flows for data configuration pipelines, driving rapid prototyping sessions to optimize UI paths.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Node 3 -->
+                    <div class="relative pl-8">
+                        <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-4 border-white bg-slate-400 ring-4 ring-slate-100"></div>
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h3 class="text-xl font-bold text-slate-900">Junior Business Analyst</h3>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Feb 2019 – Mar 2020</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-600 mt-1">Nendrasys Technologies Private Limited (Client: The Body Shop)</p>
+                        <ul class="mt-4 list-disc pl-5 text-slate-500 space-y-2 text-sm leading-relaxed">
+                            <li>Elicited core functional requirements maps across integrated SAP Hybris order routing workflows.</li>
+                            <li>Drafted operational visual wireframes, saving validation turnaround delays between technical engineering leads and product stakeholders.</li>
+                            <li>Organized strict automated and user acceptance validation execution parameters, unblocking dependency issues to meet production schedule dates.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Verified Credentials & Education Section -->
+        <section id="credentials" class="bg-white py-20">
+            <div class="mx-auto max-w-7xl px-6 sm:px-8">
+                <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
+                    
+                    <!-- Left: Verified Credentials -->
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-tight text-slate-900">Verified Product &amp; Data Credentials</h2>
+                        <p class="mt-2 text-sm text-slate-500">Click any badge resource node to access the external cryptographically secure verification link directly.</p>
+                        
+                        <div class="mt-8 space-y-4">
+                            <!-- Cert 1 -->
+                            <a href="https://certification.scrumalliance.org/accounts/1432248-sai-vasudev-gandam/certifications/1671666-cspo" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between rounded-xl border border-slate-200 p-4 transition-all hover:border-blue-500 hover:bg-slate-50/50">
+                                <div class="flex items-center gap-4">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-100">
+                                        <i class="fa-solid fa-award text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900 text-sm md:text-base">Certified Scrum Product Owner (CSPO)</h4>
+                                        <p class="text-xs text-slate-400">Scrum Alliance</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-blue-600 px-2"></i>
+                            </a>
+
+                            <!-- Cert 2 -->
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/SAIVASUDEVGANDAM-9443/2DFFBCB00F85505D?sharingId" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between rounded-xl border border-slate-200 p-4 transition-all hover:border-blue-500 hover:bg-slate-50/50">
+                                <div class="flex items-center gap-4">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-100">
+                                        <i class="fa-solid fa-chart-bar text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900 text-sm md:text-base">Power BI Data Analyst Associate (PL-300)</h4>
+                                        <p class="text-xs text-slate-400">Microsoft Certified</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-blue-600 px-2"></i>
+                            </a>
+
+                            <!-- Cert 3 -->
+                            <div class="flex items-center justify-between rounded-xl border border-slate-100 bg-slate-50/50 p-4">
+                                <div class="flex items-center gap-4">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-slate-200 text-slate-600">
+                                        <i class="fa-solid fa-building-columns text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 text-sm md:text-base">Business Analysis Foundation</h4>
+                                        <p class="text-xs text-slate-400">ID: UC-5ac04152-9e99-454c-a998-1fe82e556246</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 px-2">Verified</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Educational History -->
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-tight text-slate-900">Academic Background</h2>
+                        <p class="mt-2 text-sm text-slate-500">Core foundational degrees supporting engineering and data management principles.</p>
+
+                        <div class="mt-8 space-y-6">
+                            <!-- Degree 1 -->
+                            <div class="relative pl-6 border-l-2 border-slate-200">
+                                <div class="absolute -left-[5px] top-1.5 h-2 w-2 rounded-full bg-slate-400"></div>
+                                <span class="text-xs font-semibold text-slate-400">2017 - 2019</span>
+                                <h4 class="text-lg font-bold text-slate-900 mt-1">Master of Science in Information Technology</h4>
+                                <p class="text-sm text-slate-500">JNTUK</p>
+                            </div>
+
+                            <!-- Degree 2 -->
+                            <div class="relative pl-6 border-l-2 border-slate-200">
+                                <div class="absolute -left-[5px] top-1.5 h-2 w-2 rounded-full bg-slate-400"></div>
+                                <span class="text-xs font-semibold text-slate-400">2012 - 2016</span>
+                                <h4 class="text-lg font-bold text-slate-900 mt-1">Bachelor of Engineering in Electronics &amp; Communication (ECE)</h4>
+                                <p class="text-sm text-slate-500">Andhra University</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 bg-white py-8">
+        <div class="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between px-6 sm:px-8 text-xs text-slate-400 gap-4">
+            <p>&copy; 2026 Sai Vasudev Gandam. All rights reserved.</p>
+            <div class="flex space-x-6">
+                <a href="https://www.linkedin.com/in/sai-vasudev-gandam-b6238015b" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">LinkedIn Profile</a>
+                <span>Contact: sai.gadam94@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
